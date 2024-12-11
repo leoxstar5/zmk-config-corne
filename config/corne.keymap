@@ -44,12 +44,12 @@
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
 // | CTRL |  `  |     |     |     |     |   |  -  |  =  |  \  |  [  |  ]  |      |
 // | SHFT |  ~  |     |     |     |     |   |  _  |  +  | "|" |  {  |  }  |      |
-//                 | GUI | &tog 1 | SPC |   | ENT |  &tog 2 | ALT |
+//                 | GUI | &tog 1 | SPC |   | ENT | &tog 2 | ALT |
                         bindings = <
    &kp  TAB  &kp EXCL  &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &kp GRAVE &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp BSLH  &kp LBKT &kp RBKT &kp trans
-   &kp LSHFT &kp TILDE &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp PIPE  &kp LBRC  &kp RBRC &kp trans
-                             &kp LGUI &tog 1  &kp SPACE   &kp RET   &tog 2    &kp RALT
+   &kp LCTRL &kp GRAVE &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp BSLH  &kp LBKT &kp RBKT &trans
+   &kp LSHFT &kp TILDE &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp PIPE  &kp LBRC  &kp RBRC &trans
+                             &kp LGUI  &tog 1   &kp SPACE   &kp RET   &tog 2    &kp RALT
                         >;
                 };
         };
